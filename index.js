@@ -1,23 +1,19 @@
 module.exports.deserialize = function deserialize (content) {
-  
   try {
-    content = JSON.parse(content);
+    content = JSON.parse(content)
   } catch (err) {
-    throw err;
+    throw err
   }
 
-  return content;
+  return content
+}
 
-};
-
-module.exports.serialize = function serialize (content) { 
-  
+module.exports.serialize = function serialize (content) {
   try {
-    content = JSON.stringify(content);
+    content = JSON.stringify(content)
   } catch (err) {
-    throw err;
+    throw err
   }
 
-  return content;
-
-};
+  return content
+}
