@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/servicebus/json-formatter.git"
+    "url": "https://github.com/servicebus/json-formatter.git"
   },
   "author": "",
   "license": "ISC",
